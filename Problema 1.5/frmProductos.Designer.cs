@@ -253,6 +253,7 @@
             this.Controls.Add(this.txtNombre);
             this.Name = "frmProductos";
             this.Text = "Facturacion de Productos";
+            this.Load += new System.EventHandler(this.frmProductos_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtCantidad_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();

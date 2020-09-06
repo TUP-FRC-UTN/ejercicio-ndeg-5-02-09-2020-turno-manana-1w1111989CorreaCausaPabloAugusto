@@ -12,21 +12,26 @@ namespace Problema_1._5
 {
     public partial class frmProductos : Form
     {
-        double subTotal, total;
+        int k,j;
+        double total;
         public frmProductos()
         {
             InitializeComponent();
+            k = j = 0;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            for(int i = 0; i < lstPrecio.Items.Count; i++)
+            
+            for(int i = k; i < lstPrecio.Items.Count; i++)
             {
 
                 lstSubtotal.Items.Add(Convert.ToString(Convert.ToDouble(lstPrecio.Items[i]) * Convert.ToDouble(lstCantidad.Items[i])));
             }
      
             btnSubtotal.Enabled = false;
+            k = lstSubtotal.Items.Count;
+            btnTotal.Enabled = true;
 
         }
 
@@ -42,21 +47,18 @@ namespace Problema_1._5
                 txtCantidad.Clear();
                 txtNombre.Focus();
                 btnSubtotal.Enabled = true;
-                lstSubtotal.Items.Clear();
             }
         }
 
         private void btnTotal_Click(object sender, EventArgs e)
         {
-            for(int i = 0; i < lstSubtotal.Items.Count; i++)
+            for(int i = j; i < lstSubtotal.Items.Count; i++)
             {
                 total += Convert.ToDouble(lstSubtotal.Items[i]);
             }
             txtTotal.Text = Convert.ToString(total);
-            lstSubtotal.Items.Clear();
-            lstNombre.Items.Clear();
-            lstPrecio.Items.Clear();
-            lstCantidad.Items.Clear();
+            j = lstSubtotal.Items.Count;
+           
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
@@ -74,6 +76,12 @@ namespace Problema_1._5
         private void txtCantidad_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void frmProductos_Load(object sender, EventArgs e)
+        {
+            btnSubtotal.Enabled = false;
+            btnTotal.Enabled = false;
         }
 
         private bool ValidarCampos()
