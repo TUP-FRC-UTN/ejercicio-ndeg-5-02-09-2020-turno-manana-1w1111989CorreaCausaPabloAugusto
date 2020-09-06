@@ -1,0 +1,10 @@
+C:\Users\causa\OneDrive\Escritorio\Segundo CuatriMestre\Programacion II\Practico\Problema 1.5\bin\Debug\Problema 1.5.exe.config
+C:\Users\causa\OneDrive\Escritorio\Segundo CuatriMestre\Programacion II\Practico\Problema 1.5\bin\Debug\Problema 1.5.exe
+C:\Users\causa\OneDrive\Escritorio\Segundo CuatriMestre\Programacion II\Practico\Problema 1.5\bin\Debug\Problema 1.5.pdb
+C:\Users\causa\OneDrive\Escritorio\Segundo CuatriMestre\Programacion II\Practico\Problema 1.5\obj\Debug\Problema 1.5.csprojAssemblyReference.cache
+C:\Users\causa\OneDrive\Escritorio\Segundo CuatriMestre\Programacion II\Practico\Problema 1.5\obj\Debug\Problema_1._5.Properties.Resources.resources
+C:\Users\causa\OneDrive\Escritorio\Segundo CuatriMestre\Programacion II\Practico\Problema 1.5\obj\Debug\Problema 1.5.csproj.GenerateResource.cache
+C:\Users\causa\OneDrive\Escritorio\Segundo CuatriMestre\Programacion II\Practico\Problema 1.5\obj\Debug\Problema 1.5.csproj.CoreCompileInputs.cache
+C:\Users\causa\OneDrive\Escritorio\Segundo CuatriMestre\Programacion II\Practico\Problema 1.5\obj\Debug\Problema 1.5.exe
+C:\Users\causa\OneDrive\Escritorio\Segundo CuatriMestre\Programacion II\Practico\Problema 1.5\obj\Debug\Problema 1.5.pdb
+C:\Users\causa\OneDrive\Escritorio\Segundo CuatriMestre\Programacion II\Practico\Problema 1.5\obj\Debug\Problema_1._5.frmProductos.resources
